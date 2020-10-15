@@ -25,6 +25,7 @@
                 $("select").select2();
             });
         },
+        
     }
 
     $(document).ready(function () {
@@ -48,6 +49,8 @@
         });
         
       });
+
+      
 
     
 

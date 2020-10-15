@@ -108,6 +108,8 @@ nav a {
   max-height: 300px;
   position: absolute;
   left: 0;
+  object-fit: cover;
+  object-position: center;
   top: 0;
   margin-top: -100px; }
 
@@ -130,6 +132,8 @@ nav a {
   max-height: 300px;
   position: absolute;
   right: 0;
+  object-fit: cover;
+  object-position: center;
   top: 0;
   margin-top: -80px; }
 
@@ -297,6 +301,8 @@ nav a {
 
 /*=============== Responsive Mobile ===================*/
 @media (max-width: 320px) {
+  .navbar {
+    background-color: #060709 !important; }
   .nav-tab i {
     font-size: 18px; }
   .nav-tab a {
@@ -325,12 +331,22 @@ nav a {
     font-size: 14px !important; } }
 
 @media (min-width: 321px) and (max-width: 575px) {
+  .navbar {
+    background-color: #060709 !important; }
   .thumbnail-img-history {
     position: absolute; }
   .content-history-left {
     margin-top: 260px; }
   .title-transform {
     width: 50px; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar {
+    background-color: #060709 !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    background-color: #060709 !important; } }
 
 body {
   font: 100% "Roboto", sans-serif !important; }
