@@ -156,9 +156,41 @@ nav a {
   text-decoration-line: line-through; }
 
 .thumbnail-img-work {
-  max-height: 600px;
+  height: 600px;
   width: 100%;
+  object-position: center;
+  object-fit: cover;
   margin-bottom: 30px; }
+
+.thumbnail-img-work2 {
+  height: 300px;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  margin-bottom: 30px; }
+
+.grid-item {
+  width: 100%;
+  position: relative; }
+
+.filters-button-group button {
+  display: list-item !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+  outline: 0 !important;
+  border: 0 !important;
+  margin-bottom: 15px;
+  color: #bdbdbd !important; }
+
+.filters-button-group button.active {
+  text-decoration-line: line-through !important;
+  color: #111 !important; }
+
+.filters-button-group .button:active,
+.filters-button-group .button.is-checked {
+  text-decoration-line: line-through !important; }
+
+.filters-button-group .button.is-checked {
+  color: #111 !important; }
 
 #member-vision {
   padding: 100px 0; }
